@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+public class LoanExtends extends LoanAbstract {
+	Scanner s= new Scanner(System.in);
+	
+	String name() {
+		System.out.println("Enter your name");
+		String name= s.nextLine();
+		return name;
+	}
+   int getinterest() {
+	
+	   System.out.println("Enter the interest");
+	   int getinterest= s.nextInt();
+	   return getinterest;
+	}
+   
+   int Years() {
+	   System.out.println("Enter your years");
+	   int Years= s.nextInt();
+	   return Years;
+   }
+   void result() {
+		System.out.println("Hello"+name);
+		int LoanInterest= ((Principal*Years*getinterest)/100);
+		System.out.println("Your Interest on Loan is"+LoanInterest);
+		
+	}
+  
+}
+
+class Execution extends LoanExtends{
+	
+	public static void main(String[] args) {
+		
+		LoanExtends LoE= new LoanExtends();
+		
+		LoE.name();
+		LoE.Principal();
+		LoE.getinterest();
+		LoE.Years(); 
+		LoE.result();
+	}
+}

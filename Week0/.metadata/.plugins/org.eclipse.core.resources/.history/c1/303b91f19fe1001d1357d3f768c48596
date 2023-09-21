@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class SimpleInterest {
+	Scanner s= new Scanner(System.in);
+
+	public static void main(String[] args) {
+		
+		
+	}
+
+	void SimpleI() {
+		System.out.println("Enter your Principle Amount: ");
+		int Principle= s.nextInt();
+		System.out.println("Enter your number of years of investment: ");
+		int Years=s.nextInt();
+		System.out.println("Enter your interest upon the investment: ");
+		float Interest=s.nextFloat();
+		float SI=((Principle*Years*Interest)/100);
+	}
+
+}
+
+

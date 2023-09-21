@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class ExceptionHandling {
+	public static void main(String[] args) {
+		
+		Scanner s= new Scanner(System.in);
+		System.out.println("Enter two numbers");
+		
+		try{
+			
+		int n1=s.nextInt();
+		int n2=s.nextInt();
+		}
+		catch(Exception e){
+			System.out.println("Please enter integer");
+		}
+		finally {
+			
+		}
+		
+	}
+}

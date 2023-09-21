@@ -1,0 +1,31 @@
+
+class New {
+	
+	/*New()
+	{
+		System.out.println("constructor");
+	}
+	*/
+	void message() {
+		System.out.println("Parent Message");
+	}
+}
+
+class New2 extends New 
+{	
+	void message() {
+		super.message();
+		System.out.println("Child Message");
+	}
+	
+	void newmessage() {
+	}
+}
+
+class Main{
+	public static void main(String[] args) {
+		New2(){
+			message();
+		}
+	}
+}

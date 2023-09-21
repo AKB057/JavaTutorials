@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class SimpleInterest {
+
+	public static void main(String[] args) {
+		
+		Scanner s= new Scanner(System.in);
+		
+		System.out.println("Enter your Principal Amount: ");
+		System.out.println("Enter your number of years of investment: ");
+		System.out.println("Enter ");
+		
+	}
+
+}

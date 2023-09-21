@@ -1,0 +1,12 @@
+
+class New {
+	
+	public void message() {
+		System.out.println("Parent Message");
+	}
+}
+
+class New2{
+	New obj= new New();
+	obj.message();
+}

@@ -1,0 +1,24 @@
+import java.security.MessageDigest;
+
+class New {
+	
+	static void message() {
+		System.out.println("Parent Message");
+	}
+}
+
+class New2 extends New {
+	
+	void message() {
+		System.out.println("Child Message");
+		super.message();
+	}
+	
+}
+
+class Main{
+	public static void main(String[] args) {
+		New2 obj= new New2();
+		
+	}
+}

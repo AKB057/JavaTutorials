@@ -1,0 +1,13 @@
+
+public class New {
+	
+	void message() {
+		System.out.println("Parent Message");
+	}
+}
+
+class New2 extends New{
+	New2 obj= new New2();
+	obj.message();
+	
+}

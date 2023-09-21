@@ -1,0 +1,24 @@
+
+private class Student {
+	
+	private String name;
+	
+	public String get() {
+		return name;
+	}
+	
+	public void set(String name) {
+		this.name= name;
+	}
+	
+}
+
+class StudentMain{
+	public static void main(String[] args) {
+		
+		Student s= new Student();
+		s.set("Vijay");
+		System.out.println(s.get());
+		
+	}
+}

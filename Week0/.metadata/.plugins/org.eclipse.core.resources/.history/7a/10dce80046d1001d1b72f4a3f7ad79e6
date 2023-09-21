@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+abstract class LoanAbstract {
+	int Principal,Years,getinterest;
+	String name;
+	Scanner s= new Scanner(System.in)
+	abstract int getinterest();
+	abstract String name();
+	
+	int Principal() {
+		
+		System.out.println("Enter the Principal Amount");
+		int Principal= s.nextInt();
+		
+	}
+	
+	abstract int Years();
+	
+	void result() {
+		System.out.println(+name);
+		
+	}
+}

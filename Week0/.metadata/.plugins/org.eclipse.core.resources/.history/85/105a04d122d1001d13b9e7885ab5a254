@@ -1,0 +1,8 @@
+	public static void main(String[] args) {
+		
+		Example3 Ex1= new Example3();
+		
+		
+	}
+
+}

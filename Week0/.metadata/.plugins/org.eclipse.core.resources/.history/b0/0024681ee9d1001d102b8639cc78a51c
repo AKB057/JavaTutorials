@@ -1,0 +1,13 @@
+ class Example3 {
+	
+	public interface A {
+
+	}
+	public static void main(String[] args) {
+		
+		Example2 obj= new Example2();
+		
+		obj.arithmetic();
+		obj.message();
+	}
+}

@@ -1,0 +1,34 @@
+
+class New {
+	
+	New()
+	{
+		System.out.println("constructor");
+	}
+	void message() {
+		System.out.println("Parent Message");
+	}
+}
+
+class New2 extends New 
+{
+	New2()
+	{
+		super();//calls constructor of super class
+	}
+	void message() {
+		super.message();
+		System.out.println("Child Message");
+	}
+	
+	void newmessage() {
+		super.message();
+	}
+}
+
+class Main{
+	public static void main(String[] args) {
+		New2 obj= new New2();
+		obj.message();
+	}
+}

@@ -1,0 +1,7 @@
+
+class Person {
+    void message()
+    {
+        System.out.println("This is person class\n");
+    }
+}

@@ -1,0 +1,17 @@
+
+class New {
+	
+	void message() {
+		System.out.println("Parent Message");
+	}
+}
+
+class New2 {
+	
+	public static void main(String[] args) {
+		New obj= new New();
+		obj.message();
+	}
+	
+	
+}

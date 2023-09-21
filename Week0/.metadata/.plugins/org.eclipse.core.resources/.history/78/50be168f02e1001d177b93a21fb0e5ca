@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class AcceptChar {
+
+	public static void main(String[] args) {
+		Scanner s= new Scanner(System.in);
+		
+		char a= 'w';
+		System.out.println("Enter a character: ");
+		
+		 a= s.next().charAt(0);
+		
+		System.out.println(+a);
+	}
+
+}

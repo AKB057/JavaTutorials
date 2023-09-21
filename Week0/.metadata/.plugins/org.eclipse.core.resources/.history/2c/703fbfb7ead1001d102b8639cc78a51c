@@ -1,0 +1,23 @@
+
+class New {
+	
+	void message() {
+		System.out.println("Parent Message");
+	}
+}
+
+class New2 {
+	
+	void message() {
+		System.out.println("Child Message");
+		super.message();
+	}
+	
+}
+
+class Main{
+	public static void main(String[] args) {
+		New2 obj= new New2();
+		
+	}
+}

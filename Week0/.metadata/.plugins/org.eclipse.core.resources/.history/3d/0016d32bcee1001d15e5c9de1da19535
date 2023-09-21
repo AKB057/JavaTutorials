@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class PassOrFail {
+
+	public static void main(String[] args) {
+		
+		
+	}
+}
+
+class PorF{
+	
+	Scanner s= new Scanner(System.in);
+	
+	PorF(){
+		System.out.println("Enter your name: ");
+		String name=s.next();
+		
+		System.out.println("Enter the marks obtained");
+		float marks=s.nextFloat();
+		
+	}
+}

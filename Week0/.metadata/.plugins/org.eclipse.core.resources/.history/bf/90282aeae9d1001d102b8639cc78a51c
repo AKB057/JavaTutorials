@@ -1,0 +1,15 @@
+
+class New {
+	
+	void message() {
+		System.out.println("Parent Message");
+	}
+}
+
+class New2 extends New {
+	
+	void message() {
+		System.out.println("Child Message");
+	}
+	
+}

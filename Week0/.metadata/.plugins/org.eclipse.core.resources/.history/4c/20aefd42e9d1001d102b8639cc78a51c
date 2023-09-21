@@ -1,0 +1,6 @@
+
+public class New {
+	
+	New obj= new New();
+	
+}

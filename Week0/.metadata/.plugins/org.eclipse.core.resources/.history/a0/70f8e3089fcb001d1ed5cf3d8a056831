@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class StarMock {
+	public static void main(String[] args) {
+		Scanner s= new Scanner(System.in);
+		int i,j,k,l;
+		System.out.println("Enter the row limit");
+		int row= s.nextInt();
+		
+	}
+}
